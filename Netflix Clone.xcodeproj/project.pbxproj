@@ -18,6 +18,9 @@
 		48D6EFD228BE5128004A9C50 /* DownloadsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48D6EFD128BE5128004A9C50 /* DownloadsViewController.swift */; };
 		48D6EFD928BE68AA004A9C50 /* CollectionViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48D6EFD828BE68AA004A9C50 /* CollectionViewTableViewCell.swift */; };
 		48D6EFDB28BFA5A2004A9C50 /* HeroHeaderUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48D6EFDA28BFA5A2004A9C50 /* HeroHeaderUIView.swift */; };
+		48D6EFDD28C044B6004A9C50 /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48D6EFDC28C044B6004A9C50 /* APICaller.swift */; };
+		48D6EFDF28C050E8004A9C50 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48D6EFDE28C050E8004A9C50 /* Movie.swift */; };
+		48D6EFE128C057F0004A9C50 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48D6EFE028C057F0004A9C50 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +37,9 @@
 		48D6EFD128BE5128004A9C50 /* DownloadsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadsViewController.swift; sourceTree = "<group>"; };
 		48D6EFD828BE68AA004A9C50 /* CollectionViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewTableViewCell.swift; sourceTree = "<group>"; };
 		48D6EFDA28BFA5A2004A9C50 /* HeroHeaderUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroHeaderUIView.swift; sourceTree = "<group>"; };
+		48D6EFDC28C044B6004A9C50 /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
+		48D6EFDE28C050E8004A9C50 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		48D6EFE028C057F0004A9C50 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +118,7 @@
 		48D6EFD528BE63D6004A9C50 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				48D6EFDE28C050E8004A9C50 /* Movie.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -119,6 +126,7 @@
 		48D6EFD628BE6870004A9C50 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				48D6EFE028C057F0004A9C50 /* Extensions.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -126,6 +134,7 @@
 		48D6EFD728BE687C004A9C50 /* Managers */ = {
 			isa = PBXGroup;
 			children = (
+				48D6EFDC28C044B6004A9C50 /* APICaller.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -203,11 +212,14 @@
 				48D6EFD028BE510C004A9C50 /* SearchViewController.swift in Sources */,
 				48D6EFBB28BE4B32004A9C50 /* MainTabBarViewController.swift in Sources */,
 				48D6EFD928BE68AA004A9C50 /* CollectionViewTableViewCell.swift in Sources */,
+				48D6EFDD28C044B6004A9C50 /* APICaller.swift in Sources */,
 				48D6EFDB28BFA5A2004A9C50 /* HeroHeaderUIView.swift in Sources */,
 				48D6EFB728BE4B32004A9C50 /* AppDelegate.swift in Sources */,
 				48D6EFD228BE5128004A9C50 /* DownloadsViewController.swift in Sources */,
+				48D6EFE128C057F0004A9C50 /* Extensions.swift in Sources */,
 				48D6EFB928BE4B32004A9C50 /* SceneDelegate.swift in Sources */,
 				48D6EFCE28BE50EF004A9C50 /* UpcomingViewController.swift in Sources */,
+				48D6EFDF28C050E8004A9C50 /* Movie.swift in Sources */,
 				48D6EFCC28BE50B2004A9C50 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
